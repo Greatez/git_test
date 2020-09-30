@@ -1,0 +1,246 @@
+<div id="header">
+  <style>body{
+    width:100%;
+    font-family:Luminari;
+    font-size:15px;
+    font-weight: bold;
+    display:flex;
+    color:rgb(136, 67, 67);
+    min-width:375px;
+    background-image:url("https://cdn.clothingsupplier.com/blue-shiny-tuxedo-combination-blazer-combinations-wessi-56759-16-B.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+  }
+  input{
+    width:200px;
+    display:table-row;
+    position:sticky;
+    
+  }
+  textarea{
+    resize:none;
+  border-radius:10px;
+    text-align:center;
+    font-size:20px;
+    font-family:inherit;
+   }
+
+
+  #title{
+    color:white;
+    padding: 0px 60px 25px;
+    position:absolute;
+    top:-6px;
+    border-top:3px solid ;
+    
+  
+    
+}
+#description{
+text-align:center;
+color:white;
+font-family:Jazz LET;
+font-style:bold;
+font-size:33px;
+text-transform:uppercase;
+padding: 55px 50px ;
+}
+.content{
+padding:10px;
+width:375px;
+display:table-row;
+font-family:Luminari;
+font-size:15px;
+color:rgb(136, 67, 67);
+}
+.select{
+font-size: 16px;
+padding: 10px 8px 10px 14px;
+position: relative;
+}
+.submit{
+font-family:inherit;
+font-size:16px;
+background:transparent;
+border:3px solid black;
+color:white;
+border-radius:20px;
+margin-top:20px;
+width:10em;
+}
+.submit:hover{
+background:rgb(136, 67, 67);
+color:white
+}
+#footer {
+          display: flex;
+          justify-content: center;
+          padding: 20px;
+          font-family: inherit;
+          font-size: 40px;
+          border-bottom: 3px solid white;
+}
+@media only screen and (min-width:414px){
+  body{
+    width:fit-content;
+  }
+}
+@media only screen and (min-width: 800px){
+  body{
+    width:800px;
+    font-size:20px;
+  }
+  #title{
+    padding:0px 250px 30px;
+    font-size:xx-large;
+   }
+  #footer{
+    padding:250px 350px 0px;
+    color:white;
+  }
+  .content{
+    width:800px;
+    font-size:20px;
+   }
+  .submit{
+    margin:50px 50px;
+  }
+}
+@media only screen and (min-width:1440px){
+  body{
+    width:fit-content;
+    font-size:30px;
+    justify-content:left;
+    padding: 10px 100px 10px ;
+  }
+  #description{
+    padding: 50px 301px ;
+    font-size: 52px;
+    font-weight:900;
+    font-family:'Gill Sans';
+  }
+  #title{
+    justify-content: center;
+    font-size: 60px;
+  }
+  .content{
+    
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width:768px){
+ body{
+   width: fit-content;
+ }
+  #title{
+    padding:0 200px;
+    font-size: 39px;
+  }
+  #description{
+    padding:60px 200px;
+  }
+  #footer{
+    padding:0 320px;
+    color: white;
+  }
+}
+  @media only screen and (min-width:834px){
+body{
+  width:fit-content;
+}
+#title{
+  padding:0 239px;
+  font-size: 39px;
+}
+#description{
+  padding:55px 210px ;
+  font-size: 34px;
+}
+#footer{
+  padding:0 359px;
+}
+ }
+ @media only screen and (min-width:1024px){
+   body{
+     width: fit-content;
+   }
+   #title{
+     padding:0 339px 10px;
+     font-size: 39px;
+   }
+   #description{
+     padding-right:-55px;
+     font-size:38px;
+   }
+   #footer{
+     padding:0 450px;
+   }
+ }
+
+      
+      
+</style>
+  <h1 class="title" id="title">SAINT GREATZ</h>
+     <!--
+     <img src="https://cdn.clothingsupplier.com/blue-shiny-tuxedo-combination-blazer-combinations-wessi-56759-16-B.jpg" alt="saint greatz"
+   -->
+   </div>
+                   <div id="content">
+                        <p id="description"> bragging brand</p>
+                        <form id="survey-form">
+                          <label id="name-label">NAME:<input type="name" id="name" name="name" class="textfield" placeholder="NAME" required></label>
+                          <label id="email-label">EMAIL:<input type="email" id="email" name="email" class="textfield" placeholder="EMAIL" required></label>
+                          <label id="number-label">NUMBER:<input type="number" id="number" name="number" class="textfield"placeholder="NUMBER" required min="0" max="150"></label></p>
+                            <label for="gender" id="gender-label">GENDER:</label>
+                            <div>
+                         
+               <input type="radio" id="male" value="male" name="male-female-other">MALE<label for="male">
+                            </label></p>
+                    
+                      <input type="radio" id="female" value="female" name="male-female-other">FEMALE<label for="female">
+                  </label></p>
+
+              <input type="radio" id="other" value="other" name="male-female-other">OTHER <label for="other">
+                              </label>         </p>
+
+                              <div>
+                              <label for="currently in stock" id="stocks">CURRENTLY IN STOCK:</label>
+                                </p>
+                                <div class="flex-field">
+                                  <div class="content">
+                                <input type="checkbox" id="stock" name="tops" value="tops"><label>TOPS</label>
+                                    <div class="content">
+                                <input type="checkbox" id="stock" name="teousers" value="trousers"><label>TROUSERS</label>
+                                      <div class="content">
+                                <input type="checkbox" id="stocks" name="skirts" value="skirts"><label>SKIRTS</label>
+                                        <div class="content">
+                                  <input type="checkbox" id="stocks" name="accessories" value="accessories"><label>ACCESSORIES</label>
+                                          <div class="content">
+                                <input type="checkbox" id="stocks" name="footwears" value="footwears"><label>FOOTWEARS</label>
+                                            <div class="content">
+                                <input type="checkbox" id="stock" name="other" value="other"><label>OTHER</label>
+                      </div>                                     </div>
+                                          </p>
+            <label for="love" id="love">HOW MUCH DO YOU LOVE OUR PRODUCTS</label>
+           <select id="dropdown" name="lovemeter" class="select" >
+  <option disabled value="" selected>Select an option</option>
+         <option value="2">Great</option>
+         <option value="3">Awsome</option>
+         <option value="4">Good</option>
+       </select>
+    
+                                      </p>
+                                <label for="what" id="what-label">WHAT IS YOUR OPINION ABOUT US:</label>
+                                  
+                                </p>
+                                <textarea id="what" name="opinion" placeholder="YOUR OPINION"></textarea>
+                                    </p>
+                                <button type="submit" id="submit" class="submit">SUBMIT</button>
+                                </form>
+                                        </div>
+                     </p>                              <div id="footer">
+                                          <footer><span class="footer">STG</span></footer>
+                                        </div>
+                                      </div>
+                       
